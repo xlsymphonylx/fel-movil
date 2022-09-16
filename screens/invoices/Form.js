@@ -81,16 +81,7 @@ function Form() {
   return (
     <View style={styles.container}>
       <View style={globalStyles.selectContainer}>
-        {/* <Select
-          options={clients}
-          styles={customStyles}
-          getOptionValue={(cliente) => cliente.nit}
-          getOptionLabel={(cliente) => cliente.nombre}
-          noOptionsMessage={() => "No encontrado"}
-          isLoading={isLoading}
-          placeholder="Cliente"
-          onInputChange={(value) => setClientSearch(value)}
-        /> */}
+       
         <InputWithIcon
         
           inputStyle={{ color: "black", fontWeight: "bold" }}
@@ -98,14 +89,7 @@ function Form() {
           placeholder="Cliente"
         />
       </View>
-      {/* <View style={globalStyles.selectContainer}>
-        <Select
-          options={payments}
-          styles={customStyles}
-          placeholder="Tipo de Pago"
-          onInputChange={(value) => setPayment(value)}
-        />
-      </View> */}
+   
       <ProductForm
         buttonPadding={12}
         buttonTextStyle={styles.buttonTextStyle}
