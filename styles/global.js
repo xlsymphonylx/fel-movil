@@ -35,8 +35,8 @@ export const globalStyles = StyleSheet.create({
     paddingVertical: 2,
   },
   selectContainer: {
-    margin: 12,
-    padding: 1,
+    margin: 1,
+    padding: 0,
     overflow: true,
     zIndex: 3, // works on ios
     elevation: 3, // works on android

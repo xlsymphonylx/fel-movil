@@ -14,18 +14,23 @@ function ProductForm({ setProduct, buttonPadding, buttonTextStyle }) {
       borderColor: "#C8C8C8",
       borderRadius: 5,
       padding: 5,
-      margin: 13,
+      paddingLeft: 10,
+      marginTop: 6,
     },
 
     container: {
       borderRadius: 10,
       padding: 5,
       backgroundColor: "#fff",
+      borderColor: "#C8C8C8",
+      borderWidth: 1,
+      marginTop: 6,
     },
     buttonContainer: {
       display: "flex",
       flexDirection: "row",
       justifyContent: "center",
+      marginTop: 6,
     },
     title: {
       textAlign: "center",

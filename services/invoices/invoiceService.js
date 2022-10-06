@@ -11,7 +11,7 @@ export default {
     });
   },
   invoices(searchQuery) {
-    return axios.get("/fact/get-invoices", {
+    return axios.get("api/fact/get-invoices", {
       ...externalApiConfig,
     });
   },
