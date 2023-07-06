@@ -71,6 +71,11 @@ function LogIn({ setUser }) {
   });
   return (
     <View style={styles.container}>
+      <Image
+        src={"../assets/wa"}
+        resizeMode="repeat"
+        style={styles.wallpaper}
+      />
       <View style={styles.innerContainer}>
         <Image
           style={styles.logo}

@@ -1,3 +1,4 @@
+import { buttonStyles } from "../../styles/components/button";
 import { Pressable, StyleSheet, Text } from "react-native";
 
 function Button({
@@ -9,25 +10,7 @@ function Button({
   padding,
   disabled,
 }) {
-  const styles = StyleSheet.create({
-    button: {
-      alignItems: "center",
-      justifyContent: "center",
-      padding: padding || 14,
-      borderRadius: 10,
-      elevation: 3,
-      backgroundColor: color || "#36b9cc",
-    },
-    text: {
-      fontSize: 16,
-      lineHeight: 21,
-      fontWeight: "bold",
-      letterSpacing: 0.25,
-      padding: 0,
-      margin: 0,
-      color: "white",
-    },
-  });
+  const styles = buttonStyles(padding, color);
 
   return (
     <Pressable

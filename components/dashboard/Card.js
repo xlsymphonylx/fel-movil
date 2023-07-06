@@ -24,7 +24,7 @@ function Card({
         height: 2,
       },
       shadowOpacity: 0.3,
-      shadowRadius: 8,
+      shadowRadius: 2,
       borderRadius: 10,
       flexDirection: "row",
       alignItems: "center",
